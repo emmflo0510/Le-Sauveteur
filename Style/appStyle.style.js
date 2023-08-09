@@ -1,9 +1,6 @@
 import { StyleSheet } from "react-native";
 
 const appStyles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
   contentContainer: {
     flex: 1,
   },
@@ -30,9 +27,6 @@ const appStyles = StyleSheet.create({
     backgroundColor: "red",
     alignItems: "center",
     zIndex: 1,
-  },
-  map: {
-    ...StyleSheet.absoluteFillObject,
   },
 });
 
